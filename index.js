@@ -31,7 +31,7 @@ let getAllData = () => {
     $.ajax({
         type: 'GET', // request type GET, POST, PUT
         dataType: 'json', // requesting datatype
-        url: 'http://www.omdbapi.com/?i=tt3896198&apikey=951da92a', // URL of getting data
+        url: 'https://www.omdbapi.com/?i=tt3896198&apikey=951da92a', // URL of getting data
         success: (data) => { // in case of success response
             
             console.log(data);
